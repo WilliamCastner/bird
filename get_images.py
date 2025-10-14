@@ -1,18 +1,16 @@
 import requests
 import os
 
-# === Configuration ===
 query = "American Robin"
 save_dir = "american_robins"
 max_images = 100
 
-# Wikimedia Commons API endpoint
+# Wikimedia commons base url
 base_url = "https://commons.wikimedia.org/w/api.php"
 
-# Create output directory
+#output
 os.makedirs(save_dir, exist_ok=True)
 
-# === Step 1: Search for images ===
 params = {
     "action": "query",
     "format": "json",
@@ -43,6 +41,7 @@ while downloaded < max_images:
         print("No more results found.")
         break
 
+    
     for page in data["query"]["pages"].values():
         if "imageinfo" in page:
             img_url = page["imageinfo"][0]["url"]
