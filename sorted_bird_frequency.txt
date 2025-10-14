@@ -1,0 +1,215 @@
+Bird Species                             | Count
+-------------------------------------------------------
+Purple Martin                            | 1000
+European Starling                        | 762
+Ring-billed Gull                         | 719
+Canada Goose                             | 648
+American Robin                           | 532
+Red-winged Blackbird                     | 412
+Common Grackle                           | 363
+Great Egret                              | 342
+Mallard                                  | 297
+Wood Duck                                | 272
+Caspian Tern                             | 268
+Chimney Swift                            | 220
+Double-crested Cormorant                 | 219
+Cedar Waxwing                            | 206
+Killdeer                                 | 203
+American Herring Gull                    | 188
+House Sparrow                            | 179
+American White Pelican                   | 164
+Eurasian Collared-Dove                   | 154
+Barn Swallow                             | 150
+Blue-winged Teal                         | 143
+Rock Pigeon                              | 138
+Pectoral Sandpiper                       | 138
+Least Sandpiper                          | 136
+Monk Parakeet                            | 131
+Mourning Dove                            | 122
+Semipalmated Sandpiper                   | 115
+House Finch                              | 113
+Lesser Yellowlegs                        | 109
+Spotted Sandpiper                        | 107
+Great Blue Heron                         | 105
+Tree Swallow                             | 98
+Bank Swallow                             | 96
+Cliff Swallow                            | 95
+Dickcissel                               | 92
+Blue Jay                                 | 90
+Chipping Sparrow                         | 87
+Sanderling                               | 84
+Bobolink                                 | 83
+Brown-headed Cowbird                     | 81
+Hudsonian Godwit                         | 80
+Song Sparrow                             | 79
+Black-crowned Night Heron                | 77
+Northern Rough-winged Swallow            | 76
+American Goldfinch                       | 74
+Eastern Kingbird                         | 74
+Savannah Sparrow                         | 70
+Common Nighthawk                         | 69
+Mute Swan                                | 69
+Northern Shoveler                        | 68
+Northern Cardinal                        | 66
+Willet                                   | 66
+Red-headed Woodpecker                    | 64
+Common Yellowthroat                      | 60
+Sandhill Crane                           | 60
+American Crow                            | 58
+Eastern Wood-Pewee                       | 58
+Turkey Vulture                           | 58
+Stilt Sandpiper                          | 58
+Short-billed Dowitcher                   | 58
+Trumpeter Swan                           | 57
+Semipalmated Plover                      | 54
+Solitary Sandpiper                       | 54
+Ruby-throated Hummingbird                | 53
+Blue-gray Gnatcatcher                    | 53
+Field Sparrow                            | 53
+Eastern Meadowlark                       | 53
+Black-capped Chickadee                   | 51
+Indigo Bunting                           | 51
+Northern Flicker                         | 50
+Northern House Wren                      | 50
+Baltimore Oriole                         | 50
+Eastern Bluebird                         | 49
+Osprey                                   | 46
+Gray Catbird                             | 45
+Green Heron                              | 44
+Warbling Vireo                           | 43
+Yellow Warbler                           | 41
+Red-bellied Woodpecker                   | 40
+American Kestrel                         | 39
+Eastern Phoebe                           | 39
+Greater Yellowlegs                       | 39
+Great Crested Flycatcher                 | 39
+Red-eyed Vireo                           | 38
+White-breasted Nuthatch                  | 37
+Downy Woodpecker                         | 35
+Red-tailed Hawk                          | 34
+Piping Plover                            | 34
+Hairy Woodpecker                         | 34
+Bald Eagle                               | 34
+Cooper's Hawk                            | 32
+Baird's Sandpiper                        | 32
+Belted Kingfisher                        | 32
+Marsh Wren                               | 32
+Peregrine Falcon                         | 30
+Wild Turkey                              | 30
+Tennessee Warbler                        | 29
+Carolina Wren                            | 29
+Red-shouldered Hawk                      | 29
+Pied-billed Grebe                        | 29
+Eastern Towhee                           | 27
+Merlin                                   | 26
+Cape May Warbler                         | 26
+American Redstart                        | 25
+Least Flycatcher                         | 24
+Tufted Titmouse                          | 23
+Pileated Woodpecker                      | 23
+Northern Waterthrush                     | 23
+Willow Flycatcher                        | 22
+Sedge Wren                               | 22
+Swainson's Thrush                        | 22
+Black-and-white Warbler                  | 22
+Hooded Merganser                         | 21
+Green-winged Teal                        | 21
+Bay-breasted Warbler                     | 21
+Olive-sided Flycatcher                   | 20
+Grasshopper Sparrow                      | 20
+Forster's Tern                           | 19
+Swamp Sparrow                            | 19
+Great Horned Owl                         | 19
+Broad-winged Hawk                        | 19
+Rose-breasted Grosbeak                   | 18
+Red-breasted Nuthatch                    | 18
+Black-bellied Plover                     | 17
+Yellow-bellied Flycatcher                | 17
+Yellow-rumped Warbler                    | 17
+Common Merganser                         | 17
+Common Gallinule                         | 16
+Brown Thrasher                           | 16
+Bonaparte's Gull                         | 15
+Orchard Oriole                           | 15
+Blackburnian Warbler                     | 15
+Magnolia Warbler                         | 15
+Scarlet Tanager                          | 14
+Nashville Warbler                        | 14
+Wood Thrush                              | 13
+White-eyed Vireo                         | 13
+Chestnut-sided Warbler                   | 13
+Veery                                    | 12
+Wilson's Warbler                         | 12
+Blackpoll Warbler                        | 12
+Sora                                     | 11
+Yellow-throated Vireo                    | 11
+Wilson's Phalarope                       | 11
+Blue-winged Warbler                      | 11
+Canada Warbler                           | 11
+Mourning Warbler                         | 11
+Golden-winged Warbler                    | 11
+Black-throated Green Warbler             | 11
+Ovenbird                                 | 10
+American Coot                            | 9
+Eastern Screech-Owl                      | 9
+Northern Parula                          | 9
+Henslow's Sparrow                        | 9
+Ruddy Turnstone                          | 9
+Palm Warbler                             | 9
+Blue Grosbeak                            | 8
+Northern Harrier                         | 8
+Yellow-billed Cuckoo                     | 8
+American Avocet                          | 7
+Black-throated Blue Warbler              | 7
+Wilson's Snipe                           | 6
+Philadelphia Vireo                       | 6
+Yellow-crowned Night Heron               | 5
+Red-breasted Merganser                   | 5
+Budgerigar                               | 5
+Sharp-shinned Hawk                       | 5
+Laughing Gull                            | 5
+White-throated Sparrow                   | 5
+Gray-cheeked Thrush                      | 5
+Common Tern                              | 4
+Vesper Sparrow                           | 4
+Little Blue Heron                        | 4
+American Golden-Plover                   | 4
+American Bittern                         | 4
+Brown Creeper                            | 4
+Black-billed Cuckoo                      | 4
+Connecticut Warbler                      | 4
+Upland Sandpiper                         | 3
+Least Bittern                            | 3
+Summer Tanager                           | 3
+Snowy Egret                              | 3
+Yellow-throated Warbler                  | 3
+Virginia Rail                            | 3
+White-rumped Sandpiper                   | 3
+Buff-breasted Sandpiper                  | 3
+Barred Owl                               | 3
+Red Phalarope                            | 2
+Horned Lark                              | 2
+American Woodcock                        | 2
+Ring-necked Pheasant                     | 2
+Lesser Black-backed Gull                 | 2
+Orange-crowned Warbler                   | 2
+Ruby-crowned Kinglet                     | 2
+Black Tern                               | 2
+Gadwall                                  | 2
+Red Knot                                 | 2
+Pine Warbler                             | 2
+Ring-necked Duck                         | 1
+American Pipit                           | 1
+Whimbrel                                 | 1
+Marbled Godwit                           | 1
+Western Sandpiper                        | 1
+Lesser Scaup                             | 1
+Horned Grebe                             | 1
+Northern Mockingbird                     | 1
+Lark Sparrow                             | 1
+American Wigeon                          | 1
+Blue-crowned Parakeet                    | 1
+American Black Duck                      | 1
+Alder Flycatcher                         | 1
+Acadian Flycatcher                       | 1
+Lincoln's Sparrow                        | 1

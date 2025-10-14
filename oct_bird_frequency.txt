@@ -1,0 +1,213 @@
+Common Nighthawk: 69
+American Robin: 532
+House Sparrow: 179
+Ruby-throated Hummingbird: 53
+Chimney Swift: 220
+Wood Duck: 272
+Mallard: 297
+Rock Pigeon: 138
+Mourning Dove: 122
+Killdeer: 203
+Spotted Sandpiper: 107
+Least Sandpiper: 136
+Ring-billed Gull: 719
+Caspian Tern: 268
+Double-crested Cormorant: 219
+Black-crowned Night Heron: 77
+Great Egret: 342
+Great Blue Heron: 105
+Red-tailed Hawk: 34
+Northern Flicker: 50
+Warbling Vireo: 43
+Barn Swallow: 150
+European Starling: 762
+American Goldfinch: 74
+Red-winged Blackbird: 412
+Downy Woodpecker: 35
+Black-capped Chickadee: 51
+Cedar Waxwing: 206
+Northern Cardinal: 66
+Monk Parakeet: 131
+Canada Goose: 648
+American Kestrel: 39
+Merlin: 26
+Eastern Kingbird: 74
+Northern Rough-winged Swallow: 76
+Savannah Sparrow: 70
+Song Sparrow: 79
+Brown-headed Cowbird: 81
+American Crow: 58
+House Finch: 113
+Osprey: 46
+Red-bellied Woodpecker: 40
+Gray Catbird: 45
+Cooper's Hawk: 32
+Eastern Phoebe: 39
+Northern House Wren: 50
+Common Grackle: 363
+Semipalmated Plover: 54
+Piping Plover: 34
+Hairy Woodpecker: 34
+Semipalmated Sandpiper: 115
+Chipping Sparrow: 87
+Purple Martin: 1000
+Green Heron: 44
+Blue Jay: 90
+Baltimore Oriole: 50
+American Herring Gull: 188
+Forster's Tern: 19
+Common Tern: 4
+Sanderling: 84
+Eastern Wood-Pewee: 58
+Blue-gray Gnatcatcher: 53
+Yellow Warbler: 41
+Turkey Vulture: 58
+Indigo Bunting: 51
+Bald Eagle: 34
+White-breasted Nuthatch: 37
+Tree Swallow: 98
+Black-bellied Plover: 17
+Solitary Sandpiper: 54
+Lesser Yellowlegs: 109
+Greater Yellowlegs: 39
+Baird's Sandpiper: 32
+Pectoral Sandpiper: 138
+Hooded Merganser: 21
+American Coot: 9
+Belted Kingfisher: 32
+Wood Thrush: 13
+Common Yellowthroat: 60
+Red-eyed Vireo: 38
+Great Crested Flycatcher: 39
+Sora: 11
+Cliff Swallow: 95
+Tennessee Warbler: 29
+Rose-breasted Grosbeak: 18
+Dickcissel: 92
+Carolina Wren: 29
+Willow Flycatcher: 22
+Red-headed Woodpecker: 64
+Olive-sided Flycatcher: 20
+Eastern Bluebird: 49
+Scarlet Tanager: 14
+Bank Swallow: 96
+White-eyed Vireo: 13
+Tufted Titmouse: 23
+Field Sparrow: 53
+Eastern Towhee: 27
+Trumpeter Swan: 57
+Pileated Woodpecker: 23
+American Avocet: 7
+Bonaparte's Gull: 15
+Sedge Wren: 22
+Swamp Sparrow: 19
+Eastern Screech-Owl: 9
+Marsh Wren: 32
+Grasshopper Sparrow: 20
+Eastern Meadowlark: 53
+Least Flycatcher: 24
+Northern Parula: 9
+Bobolink: 83
+Upland Sandpiper: 3
+Northern Waterthrush: 23
+Mute Swan: 69
+Sandhill Crane: 60
+Yellow-crowned Night Heron: 5
+Henslow's Sparrow: 9
+Orchard Oriole: 15
+Red-breasted Merganser: 5
+Peregrine Falcon: 30
+Stilt Sandpiper: 58
+Red-shouldered Hawk: 29
+Ovenbird: 10
+Common Gallinule: 16
+Swainson's Thrush: 22
+Willet: 66
+Short-billed Dowitcher: 58
+Yellow-throated Vireo: 11
+Brown Thrasher: 16
+Ring-necked Duck: 1
+Budgerigar: 5
+Eurasian Collared-Dove: 154
+American White Pelican: 164
+American Pipit: 1
+Least Bittern: 3
+Green-winged Teal: 21
+Wilson's Snipe: 6
+Pied-billed Grebe: 29
+Red-breasted Nuthatch: 18
+Blue Grosbeak: 8
+Blue-winged Teal: 143
+Summer Tanager: 3
+Vesper Sparrow: 4
+Great Horned Owl: 19
+Wilson's Phalarope: 11
+Whimbrel: 1
+Sharp-shinned Hawk: 5
+Broad-winged Hawk: 19
+Little Blue Heron: 4
+Ruddy Turnstone: 9
+Northern Harrier: 8
+Yellow-bellied Flycatcher: 17
+Snowy Egret: 3
+Yellow-throated Warbler: 3
+Veery: 12
+American Redstart: 25
+Wild Turkey: 30
+Marbled Godwit: 1
+Red Phalarope: 2
+Laughing Gull: 5
+Virginia Rail: 3
+American Golden-Plover: 4
+White-rumped Sandpiper: 3
+Black-and-white Warbler: 22
+Hudsonian Godwit: 80
+Horned Lark: 2
+Northern Shoveler: 68
+American Woodcock: 2
+Yellow-billed Cuckoo: 8
+Western Sandpiper: 1
+Cape May Warbler: 26
+American Bittern: 4
+Nashville Warbler: 14
+Blue-winged Warbler: 11
+Lesser Scaup: 1
+Buff-breasted Sandpiper: 3
+Ring-necked Pheasant: 2
+Blackburnian Warbler: 15
+Lesser Black-backed Gull: 2
+Orange-crowned Warbler: 2
+Brown Creeper: 4
+Black-billed Cuckoo: 4
+Bay-breasted Warbler: 21
+Canada Warbler: 11
+Wilson's Warbler: 12
+Ruby-crowned Kinglet: 2
+Blackpoll Warbler: 12
+Yellow-rumped Warbler: 17
+Common Merganser: 17
+Mourning Warbler: 11
+Barred Owl: 3
+Golden-winged Warbler: 11
+Chestnut-sided Warbler: 13
+Magnolia Warbler: 15
+Palm Warbler: 9
+White-throated Sparrow: 5
+Black-throated Green Warbler: 11
+Black Tern: 2
+Philadelphia Vireo: 6
+Black-throated Blue Warbler: 7
+Gadwall: 2
+Horned Grebe: 1
+Northern Mockingbird: 1
+Lark Sparrow: 1
+Gray-cheeked Thrush: 5
+American Wigeon: 1
+Connecticut Warbler: 4
+Blue-crowned Parakeet: 1
+American Black Duck: 1
+Red Knot: 2
+Pine Warbler: 2
+Alder Flycatcher: 1
+Acadian Flycatcher: 1
+Lincoln's Sparrow: 1
