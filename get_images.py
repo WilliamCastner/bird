@@ -1,66 +1,70 @@
 import requests
 import os
 
-query = "American Robin"
-save_dir = "american_robins"
-max_images = 100
 
-# Wikimedia commons base url
-base_url = "https://commons.wikimedia.org/w/api.php"
+def download_images(bird_name):
+    query = bird_name
+    save_dir = f"data/train/{bird_name.replace(" ", "_")}"
+    max_images = 100
 
-#output
-os.makedirs(save_dir, exist_ok=True)
+    base_url = "https://commons.wikimedia.org/w/api.php"
 
-params = {
-    "action": "query",
-    "format": "json",
-    "generator": "search",
-    "gsrsearch": query,
-    "gsrlimit": "50",  # fetch 50 at a time (max allowed)
-    "prop": "imageinfo",
-    "iiprop": "url",
-    "gsrnamespace": 6,  # restrict to File: pages
-}
+    #output
+    os.makedirs(save_dir, exist_ok=True)
 
-headers = {
-    "User-Agent": "bird-image-downloader (williambcastner@gmail.com)"
-}
+    params = {
+        "action": "query",
+        "format": "json",
+        "generator": "search",
+        "gsrsearch": query,
+        "gsrlimit": "50",  # fetch 50 at a time (max allowed)
+        "prop": "imageinfo",
+        "iiprop": "url",
+        "gsrnamespace": 6,  # restrict to File: pages
+    }
 
-session = requests.Session()
-downloaded = 0
-continue_token = None
+    headers = {
+        "User-Agent": "bird-image-downloader (williambcastner@gmail.com)"
+    }
 
-while downloaded < max_images:
-    if continue_token:
-        params["continue"] = continue_token
+    session = requests.Session()
+    downloaded = 0
+    continue_token = None
 
-    response = session.get(base_url, headers=headers, params=params)
-    data = response.json()
+    while downloaded < max_images:
+        if continue_token:
+            params["continue"] = continue_token
 
-    if "query" not in data:
-        print("No more results found.")
-        break
+        response = session.get(base_url, headers=headers, params=params)
+        data = response.json()
 
-    
-    for page in data["query"]["pages"].values():
-        if "imageinfo" in page:
-            img_url = page["imageinfo"][0]["url"]
-            filename = os.path.join(save_dir, os.path.basename(img_url))
-            print(f"Downloading: {img_url}")
+        if "query" not in data:
+            print("No more results found.")
+            break
 
-            try:
-                img_data = session.get(img_url, headers=headers).content
-                with open(filename, "wb") as f:
-                    f.write(img_data)
-                downloaded += 1
-                if downloaded >= max_images:
-                    break
-            except Exception as e:
-                print(f"Failed to download {img_url}: {e}")
+        for page in data["query"]["pages"].values():
+            if "imageinfo" in page and any(page["imageinfo"][0]["url"].lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]):
+                img_url = page["imageinfo"][0]["url"]
+                filename = os.path.join(save_dir, os.path.basename(img_url))
+                print(f"Downloading: {img_url}")
 
-    if "continue" in data:
-        continue_token = data["continue"].get("continue")
-    else:
-        break
+                try:
+                    img_data = session.get(img_url, headers=headers).content
+                    with open(filename, "wb") as f:
+                        f.write(img_data)
+                    downloaded += 1
+                    if downloaded >= max_images:
+                        break
+                except Exception as e:
+                    print(f"Failed to download {img_url}: {e}")
 
-print(f"\n✅ Downloaded {downloaded} images to {save_dir}")
+        if "continue" in data:
+            continue_token = data["continue"].get("continue")
+        else:
+            break
+
+    print(f"\n✅ Downloaded {downloaded} images to {save_dir}")
+
+
+if __name__ == '__main__':
+    download_images("European Starling")
