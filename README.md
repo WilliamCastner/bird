@@ -1,7 +1,9 @@
 Backyard bird classification 
+**Next goal -> use pretrained model to make sure there is a bird in the images. Figure out how to get a coordinate of the bird and resize the image so the bird is +50% of the total image.
 
-Audio?
+**Once model is complete, evaluate results against https://huggingface.co/datasets/sasha/birdsnap and https://cocodataset.org/#download
 
+**Setup flask server for raspberry pi
 
 TODO: 
 1. Compile list of all backyard Chicago bird species
