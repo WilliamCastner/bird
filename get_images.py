@@ -4,12 +4,12 @@ import os
 
 def download_images(bird_name):
     query = bird_name
-    save_dir = f"data/train/{bird_name.replace(" ", "_")}"
+    save_dir = f"data/train/{bird_name.replace(' ', '_')}"
     max_images = 100
 
     base_url = "https://commons.wikimedia.org/w/api.php"
 
-    #output
+    # output
     os.makedirs(save_dir, exist_ok=True)
 
     params = {
@@ -43,20 +43,31 @@ def download_images(bird_name):
             break
 
         for page in data["query"]["pages"].values():
-            if "imageinfo" in page and any(page["imageinfo"][0]["url"].lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]):
+            if (
+                "imageinfo" in page
+                and any(
+                    page["imageinfo"][0]["url"].lower().endswith(ext)
+                    for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]
+                )
+            ):
                 img_url = page["imageinfo"][0]["url"]
-                filename = os.path.join(save_dir, os.path.basename(img_url))
+                ext = os.path.splitext(img_url)[1]
+                downloaded += 1
+                filename = os.path.join(
+                    save_dir,
+                    f"{bird_name.replace(' ', '_')}_{downloaded}{ext}",
+                )
                 print(f"Downloading: {img_url}")
 
                 try:
                     img_data = session.get(img_url, headers=headers).content
                     with open(filename, "wb") as f:
                         f.write(img_data)
-                    downloaded += 1
                     if downloaded >= max_images:
                         break
                 except Exception as e:
                     print(f"Failed to download {img_url}: {e}")
+                    downloaded -= 1  # rollback counter if failed
 
         if "continue" in data:
             continue_token = data["continue"].get("continue")
@@ -66,5 +77,5 @@ def download_images(bird_name):
     print(f"\n✅ Downloaded {downloaded} images to {save_dir}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     download_images("European Starling")
